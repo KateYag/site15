@@ -1,0 +1,654 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 950px;
+
+    }
+
+    .invite-name {
+        font-size: 80px;
+    }
+
+    .main .container {
+        max-width: 750px;
+    }
+
+    .side {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .center-card img {
+        width: 300px;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+
+
+    .invite-name {
+        font-size: 50px;
+    }
+
+    .invite-text {
+        font-size: 130px;
+    }
+
+    .attention img {
+        width: 250px;
+    }
+
+    .attention-title {
+        font-size: 46px;
+    }
+
+    .attention-we {
+        font-size: 150px;
+        top: -85px;
+        left: -35px;
+    }
+
+    .attention-text {
+        font-size: 15px;
+    }
+
+    .attention .container {
+        justify-content: space-between;
+    }
+
+    .attention-info {
+        max-width: 300px;
+    }
+    .main, .program, .wishes, .presence {
+        padding: 50px 0;
+    }
+
+    .main .container {
+        max-width: 620px;
+    }
+    .main-title {
+        font-family: "Caravan", sans-serif;
+        font-size: 150px;
+    }
+    .main-your {
+        right: -155px;
+    }
+
+    .program-day {
+        right: 60px;
+    }
+
+
+
+}
+
+@media (max-width: 625px) {
+    .container {
+        max-width: 500px;
+    }
+    .first-page {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .first-page-image img {
+        clip-path: inset(90px 0 0 0);
+        width: 430px;
+    }
+    .invite .container {
+        padding: 50px 0;
+    }
+    .first-page-text {
+        text-align: center;
+    }
+    .location-title, .main-title, .dresscode-title, .program-title,
+    .wishes-day, .presence-title {
+        font-size: 138px;
+    }
+    .wishes-text, .presence-text, .dresscode-info-text {
+        font-size: 27px;
+    }
+    .wishes-title, .presence-title, .program-title {
+        margin-bottom: 50px;
+    }
+
+        .invite .container {
+        max-width: 620px;
+    }
+
+    .invite-text {
+        font-size: 118px;
+        margin-top: 15px;
+    }
+    .wishes-day {
+        right: 11px;
+    }
+    .attention .container {
+        padding: 130px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        gap: 50px;
+    }
+    .timout {
+        padding: 30px 0 30px 0;
+    }
+
+    .attention-info {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: left;
+        max-width: 400px;
+
+    }
+
+    .attention .container img {
+        order: 2;
+        align-self: flex-start;
+    }
+
+    .attention-title {
+        font-size: 62px;
+    }
+
+    .attention-we {
+        top: -65px;
+        left: -81px;
+    }
+
+    .attention-text {
+        font-size: 23px;
+    }
+
+    .attention img {
+        width: 300px;
+    }
+
+    .date-container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        background-color: white;
+        padding: 0;
+        gap: 10px;
+        left: 50%;
+        transform: translate(-50%, 315px);
+    }
+
+    .calendar {
+        margin-bottom: 0;
+        padding-bottom: 50px;
+
+    }
+
+    .main-your {
+        right: -110px;
+        top: 18px;
+        z-index: -1;
+    }
+
+    .main {
+        padding-bottom: 150px;
+
+    }
+
+
+    .location .container {
+        text-align: center;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        gap: 20px;
+    }
+
+
+    .presence-day {
+        right: 60px;
+    }
+
+    .timout-title {
+        font-size: 46px;
+    }
+    .dresscode-info-blocks {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Выравнивание по центру */
+        gap: 10px; /* Расстояние между блоками */
+    }
+
+    .dresscode-info-block {
+        width: 300px;
+        height: 30px;
+    }
+}
+@media (max-width: 561px) {
+    .wedding-form {
+        button {
+            width: 101%;
+        }
+    }
+}
+
+@media (max-width: 525px) {
+
+    .invite-name {
+        font-size: 46px;
+    }
+    .wedding-form {
+        button {
+            width: 102%;
+        }
+    }
+    .location-title, .main-title, .dresscode-title, .program-title, .wishes-day, .presence-title {
+        font-size: 120px;
+    }
+    .invite-text {
+        font-size: 100px;
+    }
+
+    .invite-date {
+        font-size: 30px;
+        margin-bottom: -50px;
+    }
+
+    .main-your {
+        right: -71px;
+        top: 30px;
+    }
+
+    .wishes-day {
+        top: 41px;
+        right: 33px;
+    }
+    .wishes {
+        padding-bottom:  0;
+    }
+
+
+}
+
+@media (max-width: 507px) {
+    .container {
+        max-width: 430px;
+    }
+    .presence-title {
+        font-size: 70px;
+    }
+    .location {
+        padding: 0;
+    }
+
+    .attention-we {
+        top: -75px;
+        left: -30px;
+    }
+
+    .main {
+        padding-top: 50px;
+    }
+
+    .main-title {
+        margin-bottom: 115px;
+    }
+
+    .program {
+        padding: 50px 0;
+    }
+    .wishes-text, .presence-text, .dresscode-info-text {
+        font-size: 20px;
+    }
+
+    .wishes {
+        padding: 50px 0;
+    }
+
+    .organizer-day {
+        right: -20px;
+    }
+
+    .organizer {
+        padding: 50px 0;
+    }
+
+    .presence {
+        padding: 0;
+    }
+
+    .timout {
+        padding: 30px 0 30px 0;
+    }
+
+    .location-title, .main-title, .dresscode-title, .program-title, .wishes-day, .presence-title {
+        font-size: 110px;
+    }
+
+
+    .presence-title {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 479px) {
+    .container {
+        max-width: 380px;
+    }
+
+    .invite-name {
+        font-size: 40px;
+    }
+
+    .invite-text {
+        font-size: 85px;
+    }
+
+    .invite-date {
+        margin-bottom: -30px;
+    }
+    .attention-title {
+        font-size: 55px;
+    }
+
+    .attention-we {
+        left: -38px;
+    }
+
+    .timeline::before {
+        left: 35%;
+    }
+    .invite .container {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .location-title, .program-day,  .main-title, .dresscode-title, .program-title, .wishes-day, .presence-title {
+        font-size: 106px;
+    }
+
+
+    .presence-day {
+        font-family: "Caravan", sans-serif;
+        font-size: 140px;
+    }
+
+    .presence-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .wedding-form {
+        font-size: 26px;
+    }
+    .timout-title {
+        font-size: 35px;
+    }
+
+    .calendar {
+        width: 350px;
+        padding-bottom: 25px;
+        padding-top: 30px;
+    }
+
+    .days {
+        font-size: 25px;
+    }
+
+    .day {
+        padding: 5px;
+    }
+
+    .heart {
+        right: -6px;
+    }
+
+    .main-your {
+        right: -50px;
+    }
+
+    .main .container::before {
+        top: 591px;
+    }
+
+    .date-container {
+        transform: translate(-50%, 285px);
+    }
+    .invite-invite {
+        padding: 0 20px;
+    }
+
+
+}
+
+@media (max-width: 423px) {
+    .container {
+        max-width: 300px;
+    }
+    .first-page-image img {
+        clip-path: inset(0 0 0 0);
+        width: 423px;
+    }
+
+    .attention-title {
+        font-size: 46px;
+    }
+
+    .attention-we {
+        font-size: 140px;
+    }
+    .location-title, .program-day, .main-title, .dresscode-title, .program-title, .wishes-day, .presence-title {
+        font-size: 95px;
+    }
+    .attention-text {
+        font-size: 13px;
+    }
+
+    .attention .container {
+        padding-bottom: 50px;
+    }
+
+    .heart svg {
+        width: 65px;
+        height: 80px;
+    }
+    .calendar {
+        width: 300px;
+        padding-bottom: 10px;
+    }
+    .heart {
+        bottom: -21px;
+    }
+
+
+    .center-card {
+        padding: 10px;
+    }
+
+    .gallery {
+        gap: 3px;
+    }
+
+    .program-title {
+        font-size: 65px;
+    }
+
+    .timeline::before {
+        left: 43%;
+    }
+     .wishes-day {
+        font-size: 83px;
+    }
+
+    .presence .container {
+        max-width: 370px;
+    }
+
+    .wedding-form {
+        button {
+            width: 102%;
+        }
+    }
+
+    .timout-title {
+        font-size: 28px;
+    }
+
+    .time-box span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 407px) {
+
+    .invite-name {
+        font-size: 35px;
+    }
+    .first-page-image img {
+        clip-path: inset(90px 0 0 0);
+        width: 375px;
+    }
+    .invite-text {
+        font-size: 75px;
+    }
+
+    .side {
+        width: 170px;
+        height: 170px;
+    }
+
+}
+@media (max-width: 383px) {
+    .location-title, .program-day, .main-title, .dresscode-title, .program-title, .wishes-day, .presence-title {
+        font-size: 86px;
+    }
+    .wishes-day {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 300px;
+
+    }
+    .first-page-image img {
+        width: 360px;
+    }
+
+    .attention-title {
+        font-size: 40px;
+    }
+
+    .attention-we {
+        font-size: 130px;
+    }
+    .wedding-form {
+        button {
+            width: 103%;
+        }
+    }
+
+}
+
+@media (max-width: 363px) {
+    .container {
+        max-width: 280px;
+    }
+    .first-page-image img {
+        width: 300px;
+    }
+
+    .invite-name {
+        font-size: 30px;
+    }
+
+    .invite-text {
+        font-size: 60px;
+    }
+
+
+
+    .invite-date {
+        font-size: 25px;
+    }
+
+    .dresscode-title {
+        font-size: 50px;
+    }
+
+    .wishes-title, .organizer-title, .presence-title, .program-title {
+        font-size: 58px;
+    }
+
+    .wishes-day, .organizer-day, .presence-day, .program-day {
+        font-size: 110px;
+    }
+
+    .wishes-text, .organizer-text, .presence-text {
+        font-size: 20px;
+    }
+
+    .organizer-name, .organizer-phone {
+        font-size: 20px;
+    }
+
+    .side {
+        width: 150px;
+        height: 150px;
+    }
+
+    .center-card img {
+        width: 285px;
+        height: 310px;
+    }
+
+    .calendar {
+        width: 270px;
+        padding: 10px;
+    }
+
+    .days {
+        font-size: 20px;
+    }
+
+    .day {
+        padding: 0px;
+    }
+
+    .calendar .month {
+        font-size: 85px;
+    }
+
+    .heart {
+        right: -12px;
+        font-size: 21px;
+    }
+
+    .main .container::before {
+        top: 494px;
+    }
+
+    .date-container {
+        transform: translate(-50%, 238px);
+    }
+
+}
+
+@media (max-width: 363px) {
+    .main-your {
+        right: -25px;
+    }
+}
