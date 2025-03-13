@@ -111,6 +111,7 @@
     .location-title, .main-title, .dresscode-title, .program-title,
     .wishes-day, .presence-title {
         font-size: 138px;
+        z-index: 3333;
     }
     .wishes-text, .presence-text, .dresscode-info-text {
         font-size: 27px;
@@ -303,7 +304,7 @@
     }
 
     .main-title {
-        margin-bottom: 115px;
+
     }
 
     .program {
