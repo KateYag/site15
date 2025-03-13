@@ -347,7 +347,9 @@
     .container {
         max-width: 380px;
     }
-
+    .main-title {
+        text-align: center;
+    }
     .invite-name {
         font-size: 40px;
     }
@@ -412,7 +414,8 @@
     }
 
     .heart {
-        right: -6px;
+        right: -12px;
+        bottom: -20px;
     }
 
     .main-your {
@@ -433,7 +436,7 @@
 
 }
 
-@media (max-width: 423px) {
+@media (max-width: 430px) {
     .container {
         max-width: 300px;
     }
@@ -450,7 +453,7 @@
         font-size: 140px;
     }
     .location-title, .program-day, .main-title, .dresscode-title, .program-title, .wishes-day, .presence-title {
-        font-size: 95px;
+        font-size: 86px;
     }
     .attention-text {
         font-size: 13px;
